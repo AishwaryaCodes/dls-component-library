@@ -133,6 +133,3 @@ npm run test
 ```
 
 
-## Test Results
-<img width="711" height="425" alt="image" src="https://github.com/user-attachments/assets/a0557d99-0ac3-4976-9e26-37f30849d060" />
-

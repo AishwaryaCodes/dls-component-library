@@ -134,15 +134,5 @@ npm run test
 
 
 ## Test Results
-✓ src/components/Accordion/Accordion.test.tsx (7 tests)
-✓ renders accordion with multiple panels
-✓ shows content for the clicked panel and hides the rest
-✓ hides content when an expanded panel is clicked again
-✓ can expand multiple panels at the same time by default
-✓ when shouldAllowMultipleExpanded is false
-✓ only one panel is visible at a time
-✓ accessibility
-✓ each button has aria-controls pointing to its content region
-✓ content regions have aria-labelledby pointing back to their header
-Test Files  1 passed (1)
-Tests       7 passed (7)
+<img width="711" height="425" alt="image" src="https://github.com/user-attachments/assets/a0557d99-0ac3-4976-9e26-37f30849d060" />
+

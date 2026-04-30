@@ -82,7 +82,7 @@ import { Accordion, AccordionItem } from './components/Accordion';
 
 ## Accessibility
 
-The Accordion is built to meet WAI-ARIA authoring practice guidelines for the accordion pattern:
+I tried to follow basic WAI-ARIA guidelines for the accordion pattern:
 
 - Each trigger is a `<button>` inside a heading (`<h3>`)
 - `aria-expanded` reflects the current state of each panel
@@ -98,7 +98,7 @@ The Accordion is built to meet WAI-ARIA authoring practice guidelines for the ac
 These are areas I would address given more time:
 
 **Prettier**
-Add a `.prettierrc` config and integrate it with ESLint via `eslint-config-prettier` to avoid rule conflicts. Formatting should be automatic and never something a developer has to think about.
+Add a `.prettierrc` config and integrate it with ESLint via `eslint-config-prettier` to avoid rule conflicts.
 
 **Stricter ESLint rules**
 The current ESLint config is minimal. I'd add `eslint-plugin-jsx-a11y` for accessibility linting at the authoring stage, and `eslint-plugin-react-hooks` to enforce the rules of hooks.

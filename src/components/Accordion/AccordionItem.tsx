@@ -44,16 +44,16 @@ export function AccordionItem({
       </h3>
 
       
+          {isExpanded && (
         <div
-            id={panelId}
-            role="region"
-            className="accordion-panel"
-            aria-labelledby={buttonId}
-            hidden={!isExpanded}
-          >
-            {isExpanded ? children : null}
-          </div>
-    
+          id={panelId}
+          role="region"
+          className="accordion-panel"
+          aria-labelledby={buttonId}
+        >
+          {children}
+        </div>
+      )}
     </div>
   );
 }

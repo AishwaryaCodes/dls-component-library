@@ -5,7 +5,7 @@ function App() {
     <div style={{ maxWidth: '600px', margin: '40px auto' }}>
       <h1>Accordion Demo - Test</h1>
 
-      <Accordion>
+        <Accordion>  {/*   shouldAllowMultipleExpanded={false} */} 
         <AccordionItem title="Panel one">
           Content for panel one
         </AccordionItem>
